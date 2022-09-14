@@ -84,6 +84,33 @@
                     </div>
                 </div>
             </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-white bg-success fs-2 p-2 rounded-2 mb-2"> How does JavaScript Event
+                            Loop work?</h5>
+                        <p class="card-text">
+                            <span class="fw-bold text-success">The Event Loop:</span>
+                            The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the
+                            Call Stack is empty, the Event Loop will take the first event from the queue and will push
+                            it to the Call Stack, which effectively runs it.
+                            <br>
+                            <br>
+                            Such an iteration is called a tick in the Event Loop. Each event is just a function
+                            callback.
+                            <br>
+                            <br>
+                            In other words, The event loop is a process that waits for the Call Stack to be clear before
+                            pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event
+                            loop triggers and checks the Task Queue for available callbacks. If there are any, it pushes
+                            it to the Call Stack, waits for the Call Stack to be clear again, and repeats the same
+                            process.
+
+                        </p>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
